@@ -1,4 +1,4 @@
-python3 train_decoding_raw.py --model_name BrainTranslator \
+python3 /content/EEG-to-Text-Decoding/train_decoding_raw.py --model_name BrainTranslator \
     --task_name task1_task2_taskNRv2 \
     --two_step \
     --pretrained \
