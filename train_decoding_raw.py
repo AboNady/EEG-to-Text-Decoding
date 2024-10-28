@@ -308,10 +308,6 @@ if __name__ == '__main__':
 
     print()
 
-    """save config"""
-    with open(f'/config/decoding_raw/{save_name}.json', 'w') as out_config:
-        json.dump(args, out_config, indent=4)
-
     if model_name in ['BrainTranslator', 'BrainTranslatorNaive']:
         tokenizer = BartTokenizer.from_pretrained('facebook/bart-large')
 
