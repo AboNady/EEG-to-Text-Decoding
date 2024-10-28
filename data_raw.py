@@ -10,7 +10,7 @@ from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence, pad_packed_se
 
 
 ZUCO_SENTIMENT_LABELS = json.load(open('/content/EEG-to-Text-Decoding/dataset/ZuCo/task1-SR/sentiment_labels/sentiment_labels.json'))
-SST_SENTIMENT_LABELS = json.load(open('content/EEG-to-Text-Decoding/dataset/stanfordsentiment/stanfordSentimentTreebank/ternary_dataset.json'))
+SST_SENTIMENT_LABELS = json.load(open('/content/EEG-to-Text-Decoding/dataset/stanfordsentiment/stanfordSentimentTreebank/ternary_dataset.json'))
 
 from scipy.signal import butter, lfilter
 from scipy.signal import freqz
